@@ -26,3 +26,8 @@ That means:
     - `kewlthing-csharp/` is an example application that needs authentication written in C# for [.NET Core](https://dotnet.github.io/)
     - `userservice/` is an example implementation of a user service
     - `kewlauth/` is an example of an internal auth provider
+
+
+## Things to consider
+
+- How to handle translations of error messages.
