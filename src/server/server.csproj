@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <RootNamespace>GeneRicIdp.Server</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="identityserver4" Version="1.5.2" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
+    <PackageReference Include="microsoft.aspnetcore.mvc" Version="1.1.2" />
+    <PackageReference Include="microsoft.extensions.configuration.json" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.2" />
+    <PackageReference Include="newtonsoft.json" Version="10.0.3" />
+    <PackageReference Include="rapidcore" Version="0.19.0" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+﻿@model kewlthing_csharp.UI.PickProviderInput
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Pick login provider</title>
+</head>
+<body>
+<div>
+    <h1>Pick login provider</h1>
+    
+    <ul>
+    @foreach (var provider in Model.ExternalProviders)
+    {
+        <li>
+            <a href="/Login/External?provider=@provider.AuthenticationScheme&returnUrl=@Model.ReturnUrl">@provider.DisplayName</a>
+        </li>
+    }
+    </ul>
+    
+</div>
+</body>
+</html>

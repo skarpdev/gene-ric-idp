@@ -20,12 +20,13 @@ The IDP does not know anything about users at all. It has no database. Instead i
 This repository should contain the IDP implementation + examples of all other components, so it can be demoed locally using [Docker Compose](https://docs.docker.com/compose/).
 
 That means:
-- `src/` contains the IDP stuff
-- `examples/`
-    - `kewlthing-nodejs/` is an example application that needs authentication written in [Node.js](https://nodejs.org)
-    - `kewlthing-csharp/` is an example application that needs authentication written in C# for [.NET Core](https://dotnet.github.io/)
-    - `userservice/` is an example implementation of a user service
-    - `kewlauth/` is an example of an internal auth provider
+- `src/`
+    - `server/` contains the IDP stuff
+    - `examples/`
+      - `kewlthing-nodejs/` is an example application that needs authentication written in [Node.js](https://nodejs.org)
+      - `kewlthing-csharp/` is an example application that needs authentication written in C# for [.NET Core](https://dotnet.github.io/)
+      - `userservice/` is an example implementation of a user service
+      - `kewlauth/` is an example of an internal auth provider
 
 
 ## Things to consider
